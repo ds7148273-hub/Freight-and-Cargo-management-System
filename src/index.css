@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 @import "tailwindcss";
+
+:root {
+  --bg-ink: #020617;
+}
 
 html {
   scroll-behavior: smooth;
@@ -6,8 +11,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #020617;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  background: var(--bg-ink);
 }
 
 * {
