@@ -24,3 +24,4 @@ The app is configured to run on `http://127.0.0.1:5173`.
 npm run build
 ```
 # FREIGHT-MANAGEMENT-SYsTEM-NEW
+# FREIGHT-MANAGEMENT-SYsTEM-NEW
