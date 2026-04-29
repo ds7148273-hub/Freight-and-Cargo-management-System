@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero({ stats }) {
   return (
     <section className="relative overflow-hidden bg-slate-950 text-white">
@@ -25,9 +27,12 @@ export default function Hero({ stats }) {
             <button className="rounded-md bg-amber-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-amber-400">
               Book Shipment
             </button>
-            <button className="rounded-md border border-slate-600 px-6 py-3 font-semibold text-slate-100 transition hover:border-slate-400">
-              Explore Network
-            </button>
+            <Link
+              to="/tracking"
+              className="rounded-md border border-slate-600 px-6 py-3 font-semibold text-slate-100 transition hover:border-slate-400"
+            >
+              Track Shipment
+            </Link>
           </div>
         </div>
 
